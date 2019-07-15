@@ -41,7 +41,7 @@ class DB
 
 
         } catch (PDOException $e) {
-            echo "数据库链接失败: " . $e->getMessage();
+            echo "数据库链接失败00: " . $e->getMessage();
             die();
         }
     }
